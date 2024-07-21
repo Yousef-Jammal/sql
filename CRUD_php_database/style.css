@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(27, 37, 49);
+  }
+  h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #up {
+    display: flex;
+    flex-direction: column;
+  }
+  #up input {
+    margin: 2vh 0;
+    width: 500px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    margin: 0 0 2vh 2px;
+  }
+  input {
+    outline: none;
+  }
+  #up label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+  }
+  #up button {
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+  #creatBtn {
+    background-color: green;
+    /* display: none; */
+  }
+  #updateBtn {
+    background-color: blue;
+    display: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  th {
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  td {
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  td button{
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+  td .td-delete_all{
+    background-color: rgb(196,60,56);
+  }
+  td .td-edit_all{
+    background-color: rgb(215,158,0);
+  }
